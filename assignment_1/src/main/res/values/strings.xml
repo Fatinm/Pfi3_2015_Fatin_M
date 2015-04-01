@@ -1,6 +1,17 @@
 <resources>
-    <string name="app_name">Assignment_1</string>
+    <string name="app_name">Assignment 1</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string-array
+        name="quotes_array">
+        <item>Winning isn’t everything, but wanting to win is. –Vince Lombardi</item>
+        <item>You miss 100% of the shots you don’t take. –Wayne Gretzky</item>
+        <item>Every child is an artist.  The problem is how to remain an artist once he grows up - Picasso</item>
+        <item>Whether you think you can or you think you can’t, you’re right. –Henry Ford</item>
+    </string-array>
+
+    <string name="title_activity_display_message">My message</string>
+
 </resources>
