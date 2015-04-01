@@ -2,16 +2,46 @@ package k3.pfi3_2015_fatin_m;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import java.util.Random;
+
 
 
 public class Assignment_1 extends ActionBarActivity {
+    Random random = new Random();
+    int i = 0;
+    private Button mButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Part 4 of the assignment - LogCat
+        Log.i("App 1 - Assignment 1","App started");
         setContentView(R.layout.activity_main);
+
+        mButton = (Button) findViewById(R.id.button);
+        mButton.setOnClickListener(onClick());
+    }
+
+    private View.OnClickListener onClick() {
+        return new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i("App 1 - Assignment 1", "Button pressed");
+                String[] qQuotes = getResources().getStringArray(R.array.quotes_array);
+                TextView tv1 = (TextView) findViewById(R.id.textView);
+
+                i = random.nextInt(5);
+                tv1.setText(qQuotes[i]);
+            }
+        };
     }
 
 
@@ -35,5 +65,24 @@ public class Assignment_1 extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onPause() {
+        Log.i("App 1 - Assignment 1:", "App has been paused");
+        super.onPause();
+
+    }
+
+    @Override
+    protected void onDestroy(){
+        Log.i("App 1 - Assignment 1:", "App has been closed");
+        super.onDestroy();
+    }
+
+    @Override
+    protected void onResume(){
+        Log.i("App 1 - Assignment 1:", "App has resumed");
+    super.onResume();
     }
 }
