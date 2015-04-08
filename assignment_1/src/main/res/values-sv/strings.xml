@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="title_activity_display_message">Mitt meddelande</string>
+    <string name="hello_world">Hej världen!</string>
+    <string-array
+        name="quotes_array">
+        <item>Vinna är inte allt, men att vilja vinna är. –Vince Lombardi</item>
+        <item>Du missar 100% av skotten du inte tar.–Wayne Gretzky</item>
+        <item>Varje barn är en konstnär. Problemet är hur man förblir en konstnär när man växer upp - Picasso</item>
+        <item>Oavsett om du tror att du kan eller tror att du inte kan, du har rätt. –Henry Ford</item>
+    </string-array>
+
+
+</resources>
