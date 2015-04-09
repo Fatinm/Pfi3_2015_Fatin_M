@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" tools:context="k3.assignment_2.BlankFragment"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#ffffffff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="323dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/search_btn"
+                android:src="@drawable/planner"
+                android:layout_weight="0"
+                android:maxWidth="48dp"
+                android:maxHeight="48dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="center"
+                android:background="#ffffffff"
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignEnd="@+id/textView5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/travelplannertext"
+                android:id="@+id/textView5"
+                android:layout_weight="0"
+                android:gravity="center_horizontal"
+
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/tabell"
+                android:layout_weight="0"
+                android:scaleType="center"
+                android:maxWidth="48dp"
+                android:maxHeight="48dp"
+                android:background="#ffffffff"
+                android:layout_above="@+id/textView3"
+                android:layout_alignStart="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tidtabeller"
+                android:id="@+id/textView3"
+                android:layout_weight="0"
+                android:gravity="center_horizontal"
+                android:layout_alignTop="@+id/textView5"
+                android:layout_alignParentEnd="true"
+       />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton4"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/tickets"
+                android:layout_weight="0"
+                android:background="#FFFFFF"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Biljetter"
+                android:id="@+id/textView"
+                android:gravity="center_horizontal"
+                android:layout_weight="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton3"
+                android:src="@drawable/search"
+                android:background="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Hållplatssök"
+                android:id="@+id/textView4"
+                android:gravity="center_horizontal"
+                android:layout_weight="0" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

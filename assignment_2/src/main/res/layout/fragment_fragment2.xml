@@ -1,0 +1,188 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:padding="2dp"
+
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="k3.assignment_2.Fragment2"
+
+  android:background="#ffffffff">
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/from"
+    android:hint="Från"
+    android:textIsSelectable="false"
+    android:textSize="16sp" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/to"
+    android:hint="Till"
+    android:textSize="16sp" />
+
+<RelativeLayout
+
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingTop="32dp"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="favoriter"
+        android:id="@+id/favoriter_btn"
+
+        android:background="@android:drawable/btn_default"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
+
+
+<RelativeLayout
+
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingTop="32dp"
+    >
+
+
+</RelativeLayout>
+<RelativeLayout
+    android:paddingTop="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+
+
+
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ankomst"
+            android:id="@+id/arrivalRadio_btn"
+            android:checked="true"
+            android:paddingRight="125dp"
+
+
+            android:textSize="14sp" />
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avgång"
+            android:id="@+id/depart_btn"
+
+
+
+            android:textSize="14sp" />
+    </RadioGroup>
+
+</RelativeLayout>
+<RelativeLayout
+    android:paddingTop="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:hint="Klockslag"
+        android:id="@+id/edit_clock"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:hint="Datum"
+        android:layout_toRightOf="@+id/edit_clock"
+        android:id="@+id/editDate"
+        />
+
+</RelativeLayout>
+
+<RelativeLayout
+
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingTop="32dp"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trafikslag"
+        android:id="@+id/change2_btn"
+
+        android:background="@android:drawable/btn_default"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_below="@id/change2_btn"
+        android:paddingTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 av 7 valda"
+        android:id="@+id/trafikslag_valda"
+        android:textStyle="normal"
+
+        android:textSize="12sp" />
+
+</RelativeLayout>
+
+<RelativeLayout
+
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingTop="32dp"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bevakningar"
+        android:id="@+id/bevakningar_btn"
+
+        android:background="@android:drawable/btn_default"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_below="@id/bevakningar_btn"
+        android:paddingTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inga bevakningar"
+        android:id="@+id/trafikslag_valda"
+        android:textStyle="normal"
+
+        android:textSize="12sp" />
+
+</RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>

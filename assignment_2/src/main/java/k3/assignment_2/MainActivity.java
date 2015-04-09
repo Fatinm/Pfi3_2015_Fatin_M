@@ -1,5 +1,7 @@
 package k3.assignment_2;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,6 +14,15 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Skapar fragmentmanager
+        FragmentManager fm = getFragmentManager();
+        //Skapar fragmenttransaction som skall sköta transaktionen
+        FragmentTransaction ft = fm.beginTransaction();
+        BlankFragment bf = new BlankFragment();
+        ft.replace(R.id.start_layout,bf);
+        ft.commit();
+
+        //getFragmentManager().beginTransaction().add(new BlankFragment().replace()
     }
 
 
