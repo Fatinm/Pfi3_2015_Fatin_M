@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Planets</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="planet">Planet</string>
+
+    <string name="hej">Holla at ya boi.</string>
+
+    <string name="mercury">Mercury</string>
+    <string name="venus">Venus</string>
+    <string name="earth">Earth</string>
+    <string name="mars">Mars</string>
+    <string name="jupiter">Jupiter</string>
+    <string name="saturn">Saturn</string>
+    <string name="uranus">Uranus</string>
+    <string name="neptune">Neptune</string>
+
+
+    <string name="action_spinner">Spinner</string>
+
+    <string-array name="books">
+        <item>Well Designed</item>
+        <item>Att skapa effektiva team</item>
+        <item>About face</item>
+    </string-array>
+
+
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+
+    <string-array name="books_isbn">
+        <item>08235090234</item>
+        <item>03423049203</item>
+        <item>75405298234</item>
+    </string-array>
+
+    <string name="mercury_summary">Mercury is the smallest and closest to the Sun of the eight planets in the Solar System,[a] with an orbital period of about 88 Earth days. Seen from Earth, it appears to move around its orbit in about 116 days, which is much faster than any other planet in the Solar System. It has no known natural satellites. The planet is named after the Roman deity Mercury, the messenger to the gods.</string>
+    <string name="venus_summary">Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. It has no natural satellite. It is named after the Roman goddess of love and beauty. After the Moon, it is the brightest natural object in the night sky, reaching an apparent magnitude of −4.6, bright enough to cast shadows. Because Venus is an inferior planet from Earth, it never appears to venture far from the Sun: its elongation reaches a maximum of 47.8°. Venus is a terrestrial planet and is sometimes called Earths "sister planet" because of their similar size, mass, proximity to the Sun and bulk composition. It is radically different from Earth in other respects. It has the densest atmosphere of the four terrestrial planets, consisting of more than 96% carbon dioxide. The atmospheric pressure at the planets surface is 92 times that of Earths. With a mean surface temperature of 735 K (462 °C; 863 °F), Venus is by far the hottest planet in the Solar System, even though Mercury is closer to the Sun. </string>
+    <string name="earth_summary">Earth, also called the world and, less frequently, Gaia (and Terra in some works of science fiction) is the third planet from the Sun, the densest planet in the Solar System, the largest of the Solar System is four terrestrial planets, and the only astronomical object known to accommodate life. The earliest life on Earth arose at least 3.5 billion years ago. Earths biodiversity has expanded continually except when interrupted by mass extinctions. Although scholars estimate that over 99 percent of all species that ever lived on the planet are extinct,Earth is currently home to 10–14 million species of life, including over 7.3 billion humans who depend upon its biosphere and minerals. Earths human population is divided among about two hundred sovereign states which interact through diplomacy, conflict, travel, trade and communication media. According to evidence from radiometric dating and other sources, Earth was formed around four and a half billion years ago.</string>
+    <string name="mars_summary">Mars is the fourth planet from the Sun and the second smallest planet in the Solar System, after Mercury. Named after the Roman god of war, it is often referred to as the "Red Planet" because the iron oxide prevalent on its surface gives it a reddish appearance. Mars is a terrestrial planet with a thin atmosphere, having surface features reminiscent both of the impact craters of the Moon and the volcanoes, valleys, deserts, and polar ice caps of Earth. </string>
+    <string name="jupiter_summary">Jupiter is the fifth planet from the Sun and the largest planet in the Solar System. It is a giant planet with a mass one-thousandth of that of the Sun, but is two and a half times that of all the other planets in the Solar System combined. Jupiter is a gas giant, along with Saturn (Uranus and Neptune are ice giants)Jupiter was known to astronomers of ancient times. The Romans named it after their god Jupiter. Jupiter is primarily composed of hydrogen with a quarter of its mass being helium, although helium only comprises about a tenth of the number of molecules. It may also have a rocky core of heavier elements, but like the other giant planets, Jupiter lacks a well-defined solid surface. Because of its rapid rotation, the planets shape is that of an oblate spheroid (it has a slight but noticeable bulge around the equator). The outer atmosphere is visibly segregated into several bands at different latitudes, resulting in turbulence and storms along their interacting boundaries.</string>
+    <string name="saturn_summary">Saturn is the sixth planet from the Sun and the second largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth. Although only one-eighth the average density of Earth, with its larger volume Saturn is just over 95 times more massive. Saturn is named after the Roman god of agriculture, its astronomical symbol ♄ represents the gods sickle. Saturns interior is probably composed of a core consisting of iron–nickel and rock (silicon and oxygen compounds), surrounded by a deep layer of metallic hydrogen, an intermediate layer of liquid hydrogen and liquid helium and a gaseous outer layer. Saturn has a pale yellow hue due to ammonia crystals in its upper atmosphere. Electrical current within the metallic hydrogen layer is thought to give rise to Saturns planetary magnetic field, which is weaker than Earths, but has a magnetic moment 580 times that of Earth due to Saturns larger size. Saturns magnetic field strength is around one-twentieth the strength of Jupiters. The outer atmosphere is generally bland and lacking in contrast, although long-lived features can appear. Wind speeds on Saturn can reach 1,800 km/h (500 m/s), faster than on Jupiter, but not as fast as those on Neptune.</string>
+    <string name="uranus_summary">Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have different bulk chemical composition from that of the larger gas giants Jupiter and Saturn. Therefore, astronomers increasingly place them in a separate category called "ice giants". Uranuss atmosphere, although similar to Jupiters and Saturns in its primary composition of hydrogen and helium, contains more "ices", such as water, ammonia, and methane, along with traces of other hydrocarbons. It is the coldest planetary atmosphere in the Solar System, with a minimum temperature of 49 K (−224.2 °C), and has a complex, layered cloud structure, with water thought to make up the lowest clouds, and methane the uppermost layer of clouds. The interior of Uranus is mainly composed of ices and rock.</string>
+    <string name="neptune_summary">Neptune is the eighth and farthest planet from the Sun in the Solar System. It is the fourth-largest planet by diameter and the third-largest by mass. Among the gaseous planets in the Solar System, Neptune is the most dense. Neptune is 17 times the mass of Earth and is slightly more massive than its near-twin Uranus, which is 15 times the mass of Earth, and not as dense as Neptune. Neptune orbits the Sun at an average distance of 30.1 astronomical units. Named after the Roman god of the sea, its astronomical symbol is ♆, a stylised version of the god Neptunes trident.</string>
+
+    <string name="mercury_temp">340 K</string>
+    <string name="venus_temp">735 K</string>
+    <string name="earth_temp">287 K</string>
+    <string name="mars_temp">227 K</string>
+    <string name="jupiter_temp">165 K</string>
+    <string name="saturn_temp">134 K</string>
+    <string name="uranus_temp">76 K</string>
+    <string name="neptune_temp">72 K</string>
+
+    <string name="mercury_radius">2 439,7 ± 1,0km</string>
+    <string name="venus_radius">6051,8±1,0km</string>
+    <string name="earth_radius">6378,1km</string>
+    <string name="mars_radius">3396.2±0.1km</string>
+    <string name="jupiter_radius">25362±7km</string>
+    <string name="saturn_radius">60268±4km</string>
+    <string name="neptune_radius">25362±7km</string>
+    <string name="uranus_radius">25362±7km</string>
+
+
+</resources>

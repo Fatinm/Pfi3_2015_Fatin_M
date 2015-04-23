@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="se.mah.k3.lecture_4_examples_adapter_extra.FragmentSpinners"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Galaxy"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv_spinner_r"
+                android:textColor="#ffffffff" />
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/iv_dialog"
+            android:layout_gravity="center"
+            android:src="@drawable/uranus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/hej"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/tv_spinner_temp"
+        android:textColor="#ffffffff" />
+
+
+
+</LinearLayout>

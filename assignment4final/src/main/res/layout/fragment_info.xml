@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="se.mah.k3.lecture_4_examples_adapter_extra.FragmentDialog"
+    android:background="#ff000000"
+    android:id="@+id/info_planet">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Planet"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/tv_dialog_title"
+        android:textColor="#ffffffff" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Radius"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/tv_dialog_r"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Temp"
+            android:id="@+id/tv_dialog_temp"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/iv_dialog"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/uranus" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="20dp"
+        android:background="#ff232323">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Large Text"
+            android:layout_margin="10dp"
+            android:id="@+id/tv_dialog_description"
+            android:textColor="#ffffffff" />
+    </ScrollView>
+
+</LinearLayout>
