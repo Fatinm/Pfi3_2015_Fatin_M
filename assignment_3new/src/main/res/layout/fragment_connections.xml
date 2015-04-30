@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="k3.assignment_3new.MainFragment"
+    android:background="#ffffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Spinner
+            android:layout_width="141dp"
+            android:layout_height="55dp"
+            android:id="@+id/spinner"
+            android:spinnerMode="dropdown"
+            android:entries="@array/stations"
+            android:layout_marginLeft="7dip"
+            android:layout_marginRight="7dip"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <Spinner
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:id="@+id/spinner2"
+            android:layout_gravity="center_horizontal"
+            android:spinnerMode="dropdown"
+            android:entries="@array/stations"
+            android:layout_marginLeft="7dip"
+            android:layout_marginRight="7dip"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/departure"
+            android:id="@+id/depTime"
+            android:layout_marginRight="4dp"
+            android:textStyle="bold"
+            android:textColor="#ff000000" />
+
+        <ExpandableListView
+            android:layout_width="fill_parent"
+            android:layout_height="440dp"
+            android:id="@+id/expandableListView"
+            android:groupIndicator="@null"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="@dimen/customDivider" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_from"
+            android:id="@+id/textViewFran"
+            android:textColor="@android:color/black"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_to"
+            android:id="@+id/textViewTill"
+            android:textColor="#ff000000"
+            android:paddingLeft="25dp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewFran"
+            android:paddingTop="30dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
